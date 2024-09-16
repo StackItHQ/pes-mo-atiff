@@ -65,6 +65,8 @@ Here is my public link to the demo spreadsheet I used to solve this assignment :
 
 [Watch the demo video](https://drive.google.com/file/d/1ipHEnO4YLhjPafi0b7mMFWYFpSgUnmRz/view?usp=sharing)
 
+Entire code is available in 'aut.py'(2 way data comunication) and 'automate.py' consists of my updates of workflow (only one way transfer was there till then)
+
 EXPLAINED APPROACH : 
 
 To maintain better scalability and faster response time whenever data is changed or added into spreadsheet a mechanism was developed such that it only updates the changes/added row of spreadsheet into the mysql-database, instead of updating the full database with the spreadsheet data again.
