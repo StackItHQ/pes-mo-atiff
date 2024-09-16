@@ -60,3 +60,5 @@ All the best ✨.
 
 ## Developer's Section
 *Add your video here, and your approach to the problem (optional). Leave some comments for us here if you want, we will be reading this :)*
+
+Here is my public link to the demo spreadsheet I used to solve this assignment : https://docs.google.com/spreadsheets/d/1XdkL4RMX6Cg1AfWn6eJkyKXWAEgBm4mmRCal9dog_w0/edit?usp=sharing
