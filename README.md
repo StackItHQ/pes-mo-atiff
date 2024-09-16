@@ -46,10 +46,10 @@ Once you're done, make sure you **record a video** showing your project working.
 We have a checklist at the bottom of this README file, which you should update as your progress with your assignment. It will help us evaluate your project.
 
 - [✔] My code's working just fine! 🥳
-- [] I have recorded a video showing it working and embedded it in the README ▶️
+- [✔] I have recorded a video showing it working and embedded it in the README ▶️
 - [✔] I have tested all the normal working cases 😎
 - [✔] I have even solved some edge cases (brownie points) 💪
-- [] I added my very planned-out approach to the problem at the end of this README 📜
+- [✔] I added my very planned-out approach to the problem at the end of this README 📜
 
 ## Got Questions❓
 Feel free to check the discussions tab, you might get some help there. Check out that tab before reaching out to us. Also, did you know, the internet is a great place to explore? 😛
@@ -64,4 +64,14 @@ All the best ✨.
 Here is my public link to the demo spreadsheet I used to solve this assignment : https://docs.google.com/spreadsheets/d/1XdkL4RMX6Cg1AfWn6eJkyKXWAEgBm4mmRCal9dog_w0/edit?usp=sharing
 
 [Watch the demo video](https://drive.google.com/file/d/1ipHEnO4YLhjPafi0b7mMFWYFpSgUnmRz/view?usp=sharing)
+
+EXPLAINED APPROACH : 
+
+To maintain better scalability and faster response time whenever data is changed or added into spreadsheet a mechanism was developed such that it only updates the changes/added row of spreadsheet into the mysql-database, instead of updating the full database with the spreadsheet data again.
+So this contributes to faster response time and better scalability
+
+And for transfer of data from 'database to spreadsheet' it's little bit less optimized as compared to transfer from 'spreadhseet to database' because when we detect any change in database we directly re-write the entire database to spreadsheet instead of which we can develop a similar mechanism which updates only affected rows.
+
+
+So the time coonsuming and little bit tricky part was to catch the upadtes in database and write it to spreadsheet
 
