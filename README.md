@@ -73,5 +73,7 @@ So this contributes to faster response time and better scalability
 And for transfer of data from 'database to spreadsheet' it's little bit less optimized as compared to transfer from 'spreadhseet to database' because when we detect any change in database we directly re-write the entire database to spreadsheet instead of which we can develop a similar mechanism which updates only affected rows.
 
 
-So the time coonsuming and little bit tricky part was to catch the upadtes in database and write it to spreadsheet
+So the time consuming and little bit tricky part was to catch the upadtes in database and write it to spreadsheet, which can be a scope of improvement in my approach
+
+And by implementing 'change only affected' mechanism this contributes to better scalability and faster response time and it can be considered as an edge case
 
